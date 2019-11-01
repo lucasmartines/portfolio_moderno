@@ -1,4 +1,4 @@
-<html lang="en">
+<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,9 +62,9 @@
                             Olá, sou Lucas, programador web junior, gosto muito de programar, de cumprir os desafios, e de aprender novas tecnologías.
                         </p>
                        <div class="text-right">
-                            <button class="btn btn-simple mb-2 mb-sm-0 ">
+                            <a  href='#Contato' class="btn btn-simple mb-2 mb-sm-0 ">
                                 Saiba mais
-                            </button>
+                            </a>
                         </div> 
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                         HTML5/CSS3
                     </h3>
                     <p class="card-paragraph">
-                        Conheço a estrutura html5 e css3, sintaxe semântica, código bem escrito, organizado e comentado.
+                        Conheço a estrutura html5 e css3, sintaxe semântica, código bem escrito, organizado.
                     </p>
                 </div>
             </div>
@@ -178,7 +178,7 @@
                         Php\Laravel
                     </h3>
                     <p class="card-paragraph">
-                        Conheco os fundamentos de php; classes, objetos, imports, estrutura de dados, e SQL.
+                        Conheco os fundamentos de php; classes, objetos, imports, estrutura de dados, e SQL, composer, eloquent, etc.
                     </p>
                 </div>
             </div>
@@ -307,18 +307,18 @@
                 </div>
             </div>
             <div class="text-center">
-                <button class="btn btn-simple mb-2 mb-sm-0 ">
+                <a href='#Contato' class="btn btn-simple mb-2 mb-sm-0 ">
                         Saiba mais
-                </button>
+                </a>
             </div>
         </div>
     </section>
     
-    <section class="contato">
+    <section id="Contato" class="contato">
         <div class="container container-session contato-session">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="contato-title about-title ornament-title" >
+                    <h2  class="contato-title about-title ornament-title" >
                         Contato
                     </h2>
                     <div class="contato-item">
@@ -331,18 +331,17 @@
                     </div>
                 </div>
                     <div class="col-12 ">
-                        <form action="">
+                        <form action="/some_url" method="POST">
 
                             <h2 class="form-title about-title ornament-title" >
                                 Forumario de Contato
                             </h2>
                             <input class="form-control " 
                                    type="text"
-                                   name=""
+                                   name="nome"
                                    placeholder="Seu Nome">
                             <textarea class="form-control"
-                                      name="" 
-                                      id="" 
+                                      name="conteudo" 
                                       rows="4"
                                       placeholder="Escreva algo"></textarea>
 
